@@ -1,5 +1,5 @@
 {
-  "name": "geoip-ultralight",
+  "name": "geoip-ultralight+",
   "version": "0.1.5",
   "description": "Super lightweight GeoIP implementation with country data",
   "keywords": [
@@ -12,7 +12,7 @@
     "maxmind",
     "country"
   ],
-  "homepage": "https://github.com/danielstjules/geoip-ultralight",
+  "homepage": "https://github.com/Eds-trash-can/geoip-ultralight.git",
   "author": "Daniel St. Jules <danielst.jules@gmail.com>",
   "files": [
     "lib/",
@@ -23,29 +23,26 @@
   "main": "lib/geoip.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/danielstjules/geoip-ultralight.git"
+    "url": "git://github.com/Eds-trash-can/geoip-ultralight.git"
   },
   "engines": {
     "node": ">=0.6.3"
   },
   "scripts": {
-    "test": "mocha test/tests.js",
-    "updatedb": "node scripts/updatedb.js",
-    "updatedb-debug": "node scripts/updatedb.js debug"
+    "test": "mocha test/tests.js"
   },
   "dependencies": {
     "async": "~0.1.22",
     "colors": "0.6.0-1",
     "iconv-lite": "~0.2.11",
     "lazy": "~1.0.11",
-    "rimraf": "~2.0.2",
-    "unzip": "~0.0.4"
+    "rimraf": "~2.0.2"
   },
   "config": {
     "update": true
   },
   "devDependencies": {
-    "mocha": "*",
-    "expect.js": "*"
+    "expect.js": "*",
+    "mocha": "*"
   }
 }
