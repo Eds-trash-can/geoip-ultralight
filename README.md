@@ -8,6 +8,12 @@ An even lighter alternative to geoip-lite and libGeoIP wrappers. It provides
 country data for IP addresses based on the GeoLite data from MaxMind. It does
 not provide city, state or region data. Forked from geoip-lite.
 
+# TLDR: this IS a drop in replacement just change the `require("geoip-ultralight")` to require("geoip-ultralightplus")`
+
+(just install this library first)
+
+---
+
 ## Why
 
 Unlike other geoip libraries for node, geoip-lite and geoip-ultralight don't
@@ -35,7 +41,7 @@ npm install --save https://github.com/Eds-trash-can/geoip-ultralight.git
 ## Usage
 
 ``` javascript
-var geoip = require('geoip-ultralight');
+var geoip = require('geoip-ultralightplus');
 
 // Unlike geoip-lite's lookup() call, geoip-ultralight exposes
 // a lookupCountry() function to avoid confusion
