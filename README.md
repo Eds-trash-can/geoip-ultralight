@@ -1,10 +1,12 @@
-# geoip-ultralight
+# geoip-ultralightplus
+
+Because I dont want to have warnings when using npm!
+
+and
 
 An even lighter alternative to geoip-lite and libGeoIP wrappers. It provides
 country data for IP addresses based on the GeoLite data from MaxMind. It does
 not provide city, state or region data. Forked from geoip-lite.
-
-[![Build Status](https://travis-ci.org/danielstjules/geoip-ultralight.svg?branch=master)](https://travis-ci.org/danielstjules/geoip-ultralight)
 
 ## Why
 
@@ -27,7 +29,7 @@ perfectly with your Digital Ocean or AWS micro instances.
 It can be installed via `npm` using:
 
 ``` bash
-npm install --save geoip-ultralight
+npm install --save https://github.com/Eds-trash-can/geoip-ultralight.git
 ```
 
 ## Usage
